@@ -7,7 +7,7 @@ import './index.css';
 // Set base URL for API requests
 axios.defaults.baseURL = process.env.NODE_ENV === 'development' 
   ? 'https://shikoyat.zapto.org/'
-  : '/api';
+  : '/';
 
 // Use createRoot instead of render
 const root = ReactDOM.createRoot(document.getElementById('root'));
