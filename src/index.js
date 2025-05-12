@@ -6,7 +6,7 @@ import './index.css';
 
 // Set base URL for API requests
 axios.defaults.baseURL = process.env.NODE_ENV === 'development' 
-  ? 'https://3.80.55.223/:5000/'
+  ? 'shikoyat.zapto.org/'
   : '/api';
 
 // Use createRoot instead of render
