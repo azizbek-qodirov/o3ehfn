@@ -71,7 +71,7 @@ const ShareButtons = () => {
           <div className="share-url">
             <input 
               type="text" 
-              value={currentUrl} 
+              value="https://shikoyat.netlify.app" 
               readOnly 
               onClick={(e) => e.target.select()}
               aria-label="Share URL"
